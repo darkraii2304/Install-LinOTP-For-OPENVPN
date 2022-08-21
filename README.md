@@ -6,9 +6,9 @@ Phương pháp để sử dụng OTP với OpenVPN:
 - Xác thực bằng một RADIUS Server được connect tới LinOTP:
   - OpenVPN plugin: openvpn-auth-radius
   - PAM: libpam-radius-auth
-- Xác thực bằng một RADIUS Server được connect tới LinOTP:
-  - OpenVPN plugin: openvpn-auth-radius
-  - PAM: libpam-radius-auth
+- Xác thực bằng PAM thông qua LinOTP web API:
+               -   PAM python modul: pam_linotp.py
+               -   PAM C modul: pam_linotp
 # Tính năng
 - Xác thực được chứng nhận OATH và xử lý token
 - Framework chính sách mở rộng cho phép định nghĩa chi tiết vai trò của quản trị viên, quy tắc xác thực, token,…
